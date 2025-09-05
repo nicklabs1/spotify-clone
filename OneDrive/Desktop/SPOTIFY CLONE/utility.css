@@ -1,7 +1,8 @@
 
 .border{
-    border: 2px solid red;
-    margin: 2px;
+    
+    margin-top: 15px;
+    margin-left: 0px;
 }
 .flex{
     display: flex;
@@ -16,5 +17,19 @@
 }
 .library{
     font-family: "Roboto", sans-serif;
-    min-height: 60vh;
+    min-height: 80vh;
+    position: relative;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: rgb(22 20 20);;
+}
+.buttons{
+    margin-top: 10px;
+}
+.header > *{
+padding: 10px;
+}
+

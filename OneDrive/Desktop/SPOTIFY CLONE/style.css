@@ -66,14 +66,53 @@ body{
     margin: 5px;
 }
 .p-1{
-    padding: 10px;
+    padding: 0px;
 }
 .footer{
     display: flex;
     font-size: 10px;
     color: grey;
     gap:13px;
+    position: absolute ;
+    bottom: 0;
 }
 .footer a{
     color:grey;
+}
+.spotifyPlaylists{
+    font-family: "Roboto", sans-serif;
+    padding: 16px;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+  .card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    
+}
+.card > *{
+    padding-top: 10px;
+    
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.play{
+    width: 50;
+    height: 50;
+    fill: none;
+    position: absolute;
+    top:150px;
+    right: 17px;
+    size: 16px;
+   
 }
