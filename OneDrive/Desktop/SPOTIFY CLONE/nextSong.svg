@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     width="48" height="48" 
+     viewBox="0 0 48 48" 
+     fill="none" 
+     stroke="black" 
+     stroke-width="0.8" 
+     stroke-linejoin="round" 
+     stroke-linecap="round">
+  <!-- Triangle pointing right -->
+  <polygon points="24,12 42,24 24,36" />
+  <!-- Vertical line on the right, same distance as prev -->
+  <line x1="44" y1="12" x2="44" y2="36" />
+</svg>

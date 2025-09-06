@@ -12,11 +12,16 @@ body{
 
 .left{
  width: 25vw;
- padding: 10px;
+
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .right{
-    width: 75vw;
+   width: 75vw;
+    position: relative;
+
+    margin-top: 10px;
 }
 .home ul li{
     display: flex;
@@ -59,15 +64,7 @@ body{
 .bg-grey{
     background-color: rgb(8, 8, 8);
 }
-.rounded{
-    border-radius: 7px;
-}
-.m-1{
-    margin: 5px;
-}
-.p-1{
-    padding: 0px;
-}
+
 .footer{
     display: flex;
     font-size: 10px;
@@ -75,27 +72,34 @@ body{
     gap:13px;
     position: absolute ;
     bottom: 0;
+    padding:10px;
+
 }
 .footer a{
     color:grey;
+
 }
 .spotifyPlaylists{
     font-family: "Roboto", sans-serif;
     padding: 16px;
+    
 }
 .cardContainer{
     margin: 30px;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 30px;
+    overflow-y: scroll;
+    max-height: 70vh;
 }
   .card{
-    width: 200px;
+    width: 180px;
     padding: 10px;
     border-radius: 5px;
     background-color: #252525;
     position: relative;
+    
     
 }
 .card > *{
@@ -111,8 +115,57 @@ body{
     height: 50;
     fill: none;
     position: absolute;
-    top:150px;
-    right: 17px;
-    size: 16px;
    
+    top:130px;
+    right: 17px;
+    size: 10px;
+    border-radius:50%;
+    opacity: 0;
+    transition: all 1s ease-out;
+    
+   
+}
+.signupbtn{
+    background-color:rgb(20,20,20);
+    font-weight: bold;
+    color: rgb(156, 148, 148);
+    border: none;
+    outline: none;
+  cursor: pointer;
+  font-size: 16px;
+ 
+
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.loginbtn{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    border-radius: 21px;
+   
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 79px;
+  cursor: pointer;
+}
+.loginbtn:hover{
+    font-weight: bold;
+  font-size: 17px;
+    
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(139, 193, 139);
+    width: 100%;
+    padding: 12px;
+
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
 }
